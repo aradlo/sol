@@ -1,0 +1,15 @@
+/* Anime List - Winfoku */
+.winfoku{overflow:hidden}
+.winfoku .win-apb{font-size: 14px;display: block;position: relative;overflow: hidden}
+.winfoku .win-apb a{line-height: 30px;width: 3.704%;color: #FFFFFF;background: #424242;transition: all 0.25s;text-align: center;float: left}
+.winfoku .win-apb a:hover{text-decoration: none;background: #CE3C3C;color: #FFFFFF}
+.winfoku .win-wrap{margin-top: 5px}
+.winfoku .win-group{display: inline-block;width: 100%;margin-bottom: 10px}
+.winfoku .win-head{font-weight: 700;border-bottom: 2px solid #CE3C3C;font-size: 15px;padding: 5px}
+.winfoku .win-head a{color: #333333}
+.winfoku .win-item{float: left;width: 50%;displa}
+.winfoku .win-title{display: list-item;margin-left: 20px}
+.winfoku .win-title a{line-height: 24px;font-size: 14px;color: #000000;text-overflow: ellipsis;overflow: hidden;white-space: nowrap}}
+@media only screen and (max-width: 768px){.winfoku .win-item{width:50%}}
+@media screen and (max-width:480px){.winfoku .win-item{width:100%}.winfoku .win-apb a{margin: 1px;width: 10.43%}}
+@media screen and (max-width:320px){.winfoku .win-apb a{width: 10.24%}}
